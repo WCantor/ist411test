@@ -22,7 +22,7 @@ public class ExecuteExample
 
             in = ClassLoader.getSystemResourceAsStream("db.properties");
 
-            resources = new PropertyResourceBundle(in);
+            resources = new PropertyResourceBundle(in); //coment
 
             in.close();
 
